@@ -43,23 +43,11 @@ style={styles.con}
 style={styles.Poo}
 
 ><Icon name="chevron-right" size={20} color="#f36d6d" /></Pressable>
-<Text style={{
-  color:"white",
-  right:40,
-  bottom :40
-
-}
-}>
-  Extra 15% off one {"\n"}recipes
-</Text>
 
 </View>
 
 </View>
-<View
 
-
-style={styles.productContainer}>
   <View
 
 
@@ -68,7 +56,155 @@ style={styles.productContainer}>
 
 
     <View style={{
-    width:'50%'
+    width:'50%',
+    padding:5
+
+
+  }}>
+<View style={styles.product}>
+  
+<Image
+        style={{width:250,
+          height: 150}}
+        source={require('./media/6f6f75d15d35474002446c2c550ed0db.png')}
+  
+  />
+  <View  style={styles.productStyle}>
+  <Text
+    style={{fontSize:20,
+    color:'white',
+    }}>
+    pasta {"\n"}
+    30 le
+  </Text>
+ < Pressable
+ onPress={() => Linking.openURL()}
+style={{margin:10,
+  padding:5,
+  width:30,
+  height:30,
+  borderRadius: 100,
+  backgroundColor :'white',
+  alignItems:'center',
+  left:10
+}}
+
+><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
+<Text style={{
+  color:"white",
+  
+  
+
+}
+}></Text>
+</View>
+
+
+  </View>
+
+</View>
+<View style={{
+    width:'50%',
+    padding:5
+
+
+  }}>
+<View style={styles.product}>
+  
+<Image
+        style={{width:250,
+          height: 150}}
+        source={require('./media/6f6f75d15d35474002446c2c550ed0db.png')}
+  
+  />
+  <View  style={styles.productStyle}>
+  <Text
+    style={{fontSize:20,
+    color:'white',
+    }}>
+    pasta {"\n"}
+    30 le
+  </Text>
+ < Pressable
+ onPress={() => Linking.openURL()}
+style={{margin:10,
+  padding:5,
+  width:30,
+  height:30,
+  borderRadius: 100,
+  backgroundColor :'white',
+  alignItems:'center',
+  left:10
+}}
+
+><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
+<Text style={{
+  color:"white",
+  
+  
+
+}
+}></Text>
+</View>
+
+
+  </View>
+
+</View>
+
+<View style={{
+    width:'50%',
+    padding:5
+
+
+
+  }}>
+<View style={styles.product}>
+  
+<Image
+        style={{width:250,
+          height: 150}}
+        source={require('./media/6f6f75d15d35474002446c2c550ed0db.png')}
+  
+  />
+  <View  style={styles.productStyle}>
+  <Text
+    style={{fontSize:20,
+    color:'white',
+    }}>
+    pasta {"\n"}
+    30 le
+  </Text>
+ < Pressable
+ onPress={() => Linking.openURL()}
+style={{margin:10,
+  padding:5,
+  width:30,
+  height:30,
+  borderRadius: 100,
+  backgroundColor :'white',
+  alignItems:'center',
+  left:10
+}}
+
+><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
+<Text style={{
+  color:"white",
+  
+  
+
+}
+}></Text>
+</View>
+
+
+  </View>
+
+</View>
+<View style={{
+    width:'50%',
+    padding:5
+
 
 
   }}>
@@ -116,159 +252,10 @@ style={{margin:10,
 </View>
 
 </View>
-<View
 
-
-style={styles.productContainer}>
-   
-
-
-    <View style={{
-    width:'50%'
-
-
-  }}>
-<View style={styles.product}>
-  
-<Image
-        style={{width:250,
-          height: 150}}
-        source={require('./media/food.png')}
-  
-  />
-  <View  style={styles.productStyle}>
-  <Text
-    style={{fontSize:20,
-    color:'white',
-    }}>
-    salmon{"\n"}
-    30 le
-  </Text>
- < Pressable
- onPress={() => Linking.openURL()}
-style={{margin:10,
-  padding:5,
-  width:30,
-  height:30,
-  borderRadius: 100,
-  backgroundColor :'white',
-  alignItems:'center',
-  left:10
-}}
-
-><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
-<Text style={{
-  color:"white",
-  
   
 
-}
-}></Text>
-</View>
 
-
-  </View>
-
-</View>
-
-</View>
-     <View style={{
-
-width:'50%'
-}}>
-<View style={styles.product}>
-<Image
-      style={{width:250,
-        height: 150}}
-      source={require('./media/food.png')}
-
-/>
-<View  style={styles.productStyle}>
-<Text
-  style={{fontSize:20,
-  color:'white',
-  }}>
-  salmon {"\n"}
-  30 le
-</Text>
-< Pressable
- onPress={() => Linking.openURL()}
-style={{margin:10,
-padding:5,
-width:30,
-height:30,
-borderRadius: 100,
-backgroundColor :'white',
-alignItems:'center',
-left:10
-}}
-
-><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
-<Text style={{
-color:"white",
-
-
-
-}
-}></Text>
-</View>
-
-
-</View>
-
-</View>
-
-
-    <View style={{
-    width:'50%'
-
-
-  }}>
-
-
-<View style={styles.product}>
-<Image
-        style={{width:250,
-          height: 150}}
-        source={require('./media/6f6f75d15d35474002446c2c550ed0db.png')}
-  
-  />
-  <View  style={styles.productStyle}>
-  <Text
-    style={{fontSize:20,
-    color:'white',
-    }}>
-    pasta {"\n"}
-    30 le
-  </Text>
- < Pressable
- onPress={() => Linking.openURL()}
-style={{margin:10,
-  padding:5,
-  width:30,
-  height:30,
-  borderRadius: 100,
-  backgroundColor :'white',
-  alignItems:'center',
-  left:10
-}}
-
-><Icon name="plus" size={20} color="#f36d6d" /></Pressable>
-<Text style={{
-  color:"white",
-  
-  
-
-}
-}></Text>
-</View>
-
-
-  </View>
-
-</View>
-
-</View>
 <View 
 
 
@@ -454,7 +441,12 @@ tinyLogo :{
 productContainer:{
 display:'flex',
 flexDirection:'row',
-flexWrap :'wrap'
+flexWrap :'wrap',
+width:'100%',
+
+
+
+
 
 
 },
@@ -462,7 +454,7 @@ flexWrap :'wrap'
 product:{
 
   marginTop:30,
-  width :170,
+  width :"95%",
   height :210,
   backgroundColor :'#f35c5c',
   borderRadius :20

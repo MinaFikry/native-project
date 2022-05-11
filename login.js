@@ -121,12 +121,19 @@ style={{
     style={styles.Dark}
     
     >
+      <View
+      style={{
+        width:'100%',
+        height:'15%',
+        alignItems:'center',
+        
+
+      }}
+      >
         <Text style={styles.brand}
         >AKLA</Text>
-        <Text style={styles.brandTitle}
-        >The best taste, take the shot</Text>
- 
-      
+       
+       </View>
  
     </View>
 
@@ -216,24 +223,18 @@ style={{
 ,
 Dark:{
     display:'flex',
-    width:400,
+    width:'100%',
     height:850,
+    alignItems:'center',
  backgroundColor:'rgba(29, 29, 29, 0.521)'
 }
 ,
 brand:{
-    fontFamily:'Inter-SemiBoldItalic',
    marginTop:15,
-   textAlign:'center',
     fontSize:50,
     color:'rgba(255, 255, 255, 0.932)'
 }
-,brandTitle:{
-textAlign:'center',
-fontSize:15,
-color:'rgba(255, 255, 255, 0.932)',
-letterSpacing:5
-}
+
 
 ,inp:{
 
@@ -256,11 +257,11 @@ input:{
   justifyContent: 'center',
   width:'100%',
   height :'100%',
-  marginTop:35
+  marginTop:35,
+
 },
 button:{
  textAlign:'center',
-
  marginBottom:5,
  padding:10,
  width:280,

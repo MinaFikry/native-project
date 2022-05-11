@@ -164,11 +164,7 @@ style={{
     style={styles.Dark}
     
     >
-        <Text style={styles.brand}
-        >AKLA</Text>
-        <Text style={styles.brandTitle}
-        >The best taste, take the shot</Text>
- 
+       
       
  
     </View>
@@ -176,6 +172,21 @@ style={{
     
     </ImageBackground>
 
+  <View
+  style={{
+    
+    display:'flex',
+    
+
+
+}}
+  >
+
+<View style={styles.desc} >
+    <Text style={styles.brand}
+        >AKLA</Text>
+       
+ </View>
 <View
 style={styles.form}
 >
@@ -348,7 +359,7 @@ justifyContent: 'center',
 </Text>
 </Text>
 </View>
-
+</View>  
 
 </View>
 
@@ -380,36 +391,36 @@ const styles = StyleSheet.create({
    
    display:"flex"
 }
+,desc:{
+  width:'100%',
+  height:'15%',
+  alignItems:'center',
+
+
+}
 ,
 Dark:{
-    display:'flex',
-    width:400,
+    width:'100%',
     height:850,
  backgroundColor:'rgba(29, 29, 29, 0.521)'
 }
 ,
 brand:{
     fontFamily:'Inter-SemiBoldItalic',
-   marginTop:15,
-   textAlign:'center',
-    fontSize:50,
+    fontSize:40,
     color:'rgba(255, 255, 255, 0.932)'
 }
-,brandTitle:{
-textAlign:'center',
-fontSize:15,
-color:'rgba(255, 255, 255, 0.932)',
-letterSpacing:5
-}
 ,
+
 form :{
 display : 'flex',
 flexDirection :'column',
 alignItems : 'center',
 justifyContent: 'center',
 width:'100%',
-height :'100%',
+height :'75%',
 marginTop:35
+
 
 
 
